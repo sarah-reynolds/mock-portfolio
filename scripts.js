@@ -12,31 +12,39 @@
 		});
 
 
-		$(this).click(function(){
-			var filterValue = $(this).attr('data-filter');
+		// $(this).click(function(){
+		// 	var filterValue = $(this).attr('data-filter');
+		// 	$('.grid').isotope({
+		//   	filter: filterValue
+		// 	});
+		// });
+
+
+		$('#css').click(function(){
 			$('.grid').isotope({
-		  	filter: filterValue
+		  filter: '.css',
 			});
-		});
+		})
+
+		$('#javascript').click(function(){
+			$('.grid').isotope({
+		  filter: '.javascript',
+			});
+		})
+
+		$('#node').click(function(){
+			$('.grid').isotope({
+		  filter: '.node',
+			});
+		})
+
+		$('#react').click(function(){
+			$('.grid').isotope({
+		  filter: '.react',
+			});
+		})
 
 
-		// $('#javascript').click(function(){
-		// 	$('.grid').isotope({
-		//   filter: '.javascript',
-		// 	});
-		// })
-
-		// $('#node').click(function(){
-		// 	$('.grid').isotope({
-		//   filter: '.node',
-		// 	});
-		// })
-
-		// $('#react').click(function(){
-		// 	$('.grid').isotope({
-		//   filter: '.react',
-		// 	});
-		// })
 		// $('.filter-button-group').on('click', 'button', function(){
 		// var filterValue = $(this).attr('data-filter');
 		// $grid.isoptope({ filter: filterValue });
