@@ -1,5 +1,5 @@
 <p>High level isotope steps for filtering<br />http://isotope.metafizzy.co/</p>
-<p>See commented out html and css<br />- mock-portfolio.html<br />- scripts.js</p>
+<p><strong>See commented out html and css<br />- mock-portfolio.html<br />- scripts.js</strong></p>
 <ol>
 <li>HTML: Link the isotope CDN in your html.<br />&lt;script src="https://unpkg.com/isotope-layout@3.0.1/dist/isotope.pkgd.min.js"&gt;&lt;/script&gt;</li>
 <li>HTML: Create buttons for filtering. Include the following in the button tag:
