@@ -5,24 +5,20 @@
 		  });
 
 
-		$('.grid').isotope({
+// ======== INITIATE ISOTOPE ========//
+
+		$('.grid').isotope({ // identify the wrapper div that contains the elements to be filtered
 		  // options
-		  itemSelector: '.grid-item',
+		  itemSelector: '.grid-item', // the class name that identifies the class of divs to be filtered
 		  layoutMode: 'fitRows'
 		});
 
 
-		// $(this).click(function(){
-		// 	var filterValue = $(this).attr('data-filter');
-		// 	$('.grid').isotope({
-		//   	filter: filterValue
-		// 	});
-		// });
+// ======== CREATE CLICK FUNCTIONS FOR EACH BUTTON ========//
 
-
-		$('#css').click(function(){
-			$('.grid').isotope({
-		  filter: '.css',
+		$('#css').click(function(){ // the button id to be clicked
+			$('.grid').isotope({ 	//isotope function grabs the items in the wrapper
+		  filter: '.css',			// filter the items with this class
 			});
 		})
 
@@ -45,16 +41,7 @@
 		})
 
 
-		// $('.filter-button-group').on('click', 'button', function(){
-		// var filterValue = $(this).attr('data-filter');
-		// $grid.isoptope({ filter: filterValue });
 
-		// })
-
-		// $('.grid').isotope({ 
-		// 	filter: '.css' 
-		// });
-		
 
 	});
 
