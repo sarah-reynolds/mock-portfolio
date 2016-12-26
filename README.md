@@ -23,18 +23,17 @@ http://isotope.metafizzy.co/
 ###JAVASCRIPT
 * Initiate isotope.
   1. You’ll need to include the class name of the wrapper div, and the class name of the elements to be filtered (the class that is the same for all elements)
-```
-$('.grid').isotope({
-     itemSelector: '.grid-item',
-     layoutMode: 'fitRows'
-});
-```
+  ```
+  $('.grid').isotope({
+       itemSelector: '.grid-item',
+       layoutMode: 'fitRows'
+  });
+  ```
 * Add click listeners for each button, which will then run isotope functions
-
-```
-$('#javascript').click(function(){
-     $('.grid').isotope({
-     filter: '.javascript',
-     });
-})
-```
+  ```
+  $('#javascript').click(function(){
+       $('.grid').isotope({
+       filter: '.javascript',
+       });
+  })
+  ```
