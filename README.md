@@ -7,9 +7,10 @@ http://isotope.metafizzy.co/
 
 ###HTML
 * Link the isotope CDN in your html.
-```
-<script src="https://unpkg.com/isotope-layout@3.0.1/dist/isotope.pkgd.min.js"></script>
-```
+
+  ```
+  <script src="https://unpkg.com/isotope-layout@3.0.1/dist/isotope.pkgd.min.js"></script>
+  ```
 * Create buttons for filtering. Include the following in the button tag:
   1. An ID for the filter, ideally the same name as what you’re filtering by
   2. Include data-filter=“.class-name-to-filter”
