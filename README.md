@@ -5,7 +5,7 @@ http://isotope.metafizzy.co/
 - mock-portfolio.html
 - scripts.js
 
-###HTML: 
+###HTML
 * Link the isotope CDN in your html.
 ```
 <script src="https://unpkg.com/isotope-layout@3.0.1/dist/isotope.pkgd.min.js"></script>
@@ -30,6 +30,7 @@ http://isotope.metafizzy.co/
   });
   ```
 * Add click listeners for each button, which will then run isotope functions
+
   ```
   $('#javascript').click(function(){
        $('.grid').isotope({
