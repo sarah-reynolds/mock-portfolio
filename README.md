@@ -5,7 +5,7 @@ http://isotope.metafizzy.co/
 - mock-portfolio.html
 - scripts.js
 
-#####HTML: 
+###HTML: 
 * Link the isotope CDN in your html.
 ```
 <script src="https://unpkg.com/isotope-layout@3.0.1/dist/isotope.pkgd.min.js"></script>
@@ -19,7 +19,8 @@ http://isotope.metafizzy.co/
   2. Inside the wrapper div, create a separate div/element for each item to be filtered. Include the following for each element:
     - A class to identify that this element is to be used by isotope to be filtered. This class will be the same for EACH div/element.
     - A class to identify what filters apply to the div/element.
-#####JAVASCRIPT
+
+###JAVASCRIPT
 * Initiate isotope.
   1. You’ll need to include the class name of the wrapper div, and the class name of the elements to be filtered (the class that is the same for all elements)
 ```
